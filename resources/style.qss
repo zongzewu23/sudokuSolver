@@ -1,0 +1,34 @@
+/* resources/style.qss */
+
+QWidget {
+    background-color: #E0E0E0;
+}
+
+QLineEdit {
+    border: 2px solid #AAAAAA;
+    border-radius: 5px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #4CAF50;
+    background-color: #FFFFFF;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #45A049;
+}
+
+QPushButton:pressed {
+    background-color: #388E3C;
+}
+
+QLabel {
+    color: #333333;
+}
